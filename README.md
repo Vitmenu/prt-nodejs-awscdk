@@ -23,7 +23,7 @@ To get started with learning AWS CDK in JavaScript
 - [Migrating from AWS CDK v1 to AWS CDK v2](https://docs.aws.amazon.com/cdk/v2/guide/migrating-v2.html)
 - [Tutorial: Create your first AWS CDK app](https://docs.aws.amazon.com/cdk/v2/guide/hello_world.html)
 - [AWS CDK Toolkit](https://www.npmjs.com/package/aws-cdk)
-- [Making your CDK repository public - how bad an idea?](https://www.reddit.com/r/aws/comments/10zb5mt/making_your_cdk_repository_public_how_bad_an_idea/)~~Read reddit~~
+- [Making your CDK repository public - how bad an idea?](https://www.reddit.com/r/aws/comments/10zb5mt/making_your_cdk_repository_public_how_bad_an_idea/) ~~(Read reddit)~~
 
 ## Useful commands
 
