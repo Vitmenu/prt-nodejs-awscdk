@@ -11,13 +11,13 @@ To get started with learning AWS CDK in JavaScript
     **Note:** 
     The modules and npm packages used in this video are outdated. Please refer to the official AWS CDK documentation for the most current practices, or try
     ```
-        const {
-            Construct,
-        } = require("constructs");
-        const {    
-            aws_lambda: lambda,
-            aws_s3: s3,
-        } = require("aws-cdk-lib");
+    const {
+        Construct,
+    } = require("constructs");
+    const {    
+        aws_lambda: lambda,
+        aws_s3: s3,
+    } = require("aws-cdk-lib");
     ```
 
 - [Migrating from AWS CDK v1 to AWS CDK v2](https://docs.aws.amazon.com/cdk/v2/guide/migrating-v2.html)
