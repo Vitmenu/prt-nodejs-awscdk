@@ -8,9 +8,22 @@ To get started with learning AWS CDK in JavaScript
 
 **check out those links**
 - [How to Create an AWS Lambda Function with CDK (in Javascript)](https://www.youtube.com/watch?v=1YrmUzOjIqE)
+    **Note:** 
+    The modules and npm packages used in this video are outdated. Please refer to the official AWS CDK documentation for the most current practices, or try
+    ```
+        const {
+            Construct,
+        } = require("constructs");
+        const {    
+            aws_lambda: lambda,
+            aws_s3: s3,
+        } = require("aws-cdk-lib");
+    ```
+
 - [Migrating from AWS CDK v1 to AWS CDK v2](https://docs.aws.amazon.com/cdk/v2/guide/migrating-v2.html)
 - [Tutorial: Create your first AWS CDK app](https://docs.aws.amazon.com/cdk/v2/guide/hello_world.html)
 - [AWS CDK Toolkit](https://www.npmjs.com/package/aws-cdk)
+- [Making your CDK repository public - how bad an idea?](https://www.reddit.com/r/aws/comments/10zb5mt/making_your_cdk_repository_public_how_bad_an_idea/)~~Read reddit~~
 
 ## Useful commands
 
