@@ -1,0 +1,10 @@
+# Initialised by aws-cdk
+# CDK asset staging directory
+node_modules
+.cdk.staging
+cdk.out
+
+# Customised
+.txt
+config
+*.env
