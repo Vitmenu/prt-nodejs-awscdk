@@ -4,6 +4,9 @@ This repository is designed to help you get started with the AWS Cloud Developme
 
 ## Getting Started
 
+**Prerequisites**
+Your AWS CLI must be prepared for IAM role permission for all the operations that you might want to achieve with AWS CDK.
+
 To get started with learning AWS CDK in JavaScript
 
 **check out those links**
@@ -24,6 +27,17 @@ To get started with learning AWS CDK in JavaScript
 - [Tutorial: Create your first AWS CDK app](https://docs.aws.amazon.com/cdk/v2/guide/hello_world.html)
 - [AWS CDK Toolkit](https://www.npmjs.com/package/aws-cdk)
 - [Making your CDK repository public - how bad an idea?](https://www.reddit.com/r/aws/comments/10zb5mt/making_your_cdk_repository_public_how_bad_an_idea/) ~~(Read reddit)~~
+
+## Command for CDK & Deployment Steps
+
+**Note:**
+    [Best practice is always to read the official docs](https://docs.aws.amazon.com/cdk/v2/guide/cli.html)
+
+- `cdk synth`: Synthesise and print the CloudFormation yml template for your CDK app.
+- `cdk bootstrap`: Set up your AWS to work with the AWS CDK. =< Create AWS resources which are needed as part of your AWS deployment process.
+- `cdk deploy`: Deploy resources.
+
+Check Stack in Cloudformation service in your AWS console after you completed deploying resources to make sure that every changes have been reflected correctly.
 
 ## Useful commands
 
