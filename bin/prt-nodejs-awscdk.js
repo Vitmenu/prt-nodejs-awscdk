@@ -4,7 +4,9 @@ const cdk = require('aws-cdk-lib');
 const { PrtNodejsAwscdkStack } = require('../lib/prt-nodejs-awscdk-stack');
 
 const app = new cdk.App();
-new PrtNodejsAwscdkStack(app, 'PrtNodejsAwscdkStack', {
+const stackName = 'PrtNodejsAwscdkStack'; // This stack name will be appended to the CloudFormation stack name.
+
+new PrtNodejsAwscdkStack(app, stackName, {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
