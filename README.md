@@ -37,7 +37,7 @@ To get started with learning AWS CDK in JavaScript
 - `cdk bootstrap`: Set up your AWS to work with the AWS CDK. =< Create AWS resources which are needed as part of your AWS deployment process.
 - `cdk deploy`: Deploy resources.
 
-Check Stack in Cloudformation service in your AWS console after you completed deploying resources to make sure that every changes have been reflected correctly.
+Check Stacks in Cloudformation service in your AWS console after you completed deploying resources to make sure that every changes have been reflected correctly.
 
 ## Useful commands
 
