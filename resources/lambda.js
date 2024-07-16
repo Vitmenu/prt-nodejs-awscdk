@@ -1,3 +1,5 @@
+// The codes below will be uploaded to the Lambda function as it is.
+
 const AWS = require('aws-sdk');
 const S3 = new AWS.S3();
 
